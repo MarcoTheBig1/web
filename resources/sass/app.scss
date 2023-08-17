@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.custom {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Cambiar el color del texto a azul cuando pases el cursor por encima del enlace */
+a:hover {
+    color: blue;
+    text-decoration: none; /* Si quieres quitar la subrayado del enlace al pasar el cursor por encima */
+  }

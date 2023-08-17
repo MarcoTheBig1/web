@@ -1,0 +1,18 @@
+/* styles.css */
+
+/* Estilo para los enlaces */
+a.custom {
+  background-color: transparent;
+  color: inherit;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-decoration: none; /* Eliminar el subrayado */
+  transition: background-color 0.3s; /* Agregamos una transición suave para el cambio de color */
+}
+
+a.custom:hover {
+  background-color: blue;
+  color: white; /* Cambiamos el color del texto a blanco cuando el cursor está sobre el enlace */
+}
+
+
